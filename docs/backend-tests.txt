@@ -1,0 +1,40 @@
+........................................................................ [ 92%]
+......                                                                   [100%]
+============================== warnings summary ===============================
+..\.venv\Lib\site-packages\fastapi\testclient.py:1
+  C:\Important documents\learnings\project\car_inventory_system\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+tests/test_health.py::test_health_endpoint
+  C:\Important documents\learnings\project\car_inventory_system\.venv\Lib\site-packages\pydantic\_internal\_generate_schema.py:1078: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x000002376ABBE020>
+    args = tuple(self._resolve_forward_ref(a) if isinstance(a, ForwardRef) else a for a in args)
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+tests/test_health.py::test_health_endpoint
+  C:\Important documents\learnings\project\car_inventory_system\.venv\Lib\site-packages\pydantic\_internal\_generate_schema.py:1078: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x000002376ABBCD60>
+    args = tuple(self._resolve_forward_ref(a) if isinstance(a, ForwardRef) else a for a in args)
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=============================== tests coverage ================================
+______________ coverage: platform win32, python 3.13.14-final-0 _______________
+
+Name                     Stmts   Miss  Cover   Missing
+------------------------------------------------------
+app\__init__.py              0      0   100%
+app\admin.py                19     19     0%   1-43
+app\db.py                    7      0   100%
+app\main.py                 27      1    96%   29
+app\repository.py           76      0   100%
+app\routes\__init__.py       0      0   100%
+app\routes\auth.py          27      1    96%   51
+app\routes\vehicles.py      45      1    98%   113
+app\schemas.py              26      0   100%
+app\security.py             46      2    96%   43, 49
+app\user_repository.py      22      0   100%
+------------------------------------------------------
+TOTAL                      295     24    92%
+Coverage HTML written to dir ../docs/backend-coverage
+78 passed, 3 warnings in 21.53s

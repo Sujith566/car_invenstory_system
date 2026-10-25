@@ -1,0 +1,19 @@
+
+> frontend@0.0.0 test
+> vitest run --reporter=default --reporter=junit --outputFile.junit=../docs/frontend-tests.xml
+
+
+[1m[30m[46m RUN [49m[39m[22m [36mv5.0.5 [39m[90mC:/Important documents/learnings/project/car_inventory_system/frontend[39m
+
+ [32mΓ£ô[39m src/test/VehicleCard.test.jsx [2m([22m[2m6 tests[22m[2m)[22m[33m 435[2mms[22m[39m
+ [32mΓ£ô[39m src/test/VehicleForm.test.jsx [2m([22m[2m3 tests[22m[2m)[22m[33m 450[2mms[22m[39m
+   [33m[2mΓ£ô[22m[39m creates a vehicle with a decimal-string price[33m 346[2mms[22m[39m
+ [32mΓ£ô[39m src/test/AuthForm.test.jsx [2m([22m[2m3 tests[22m[2m)[22m[33m 483[2mms[22m[39m
+   [33m[2mΓ£ô[22m[39m logs in and loads the signed-in user[33m 338[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m3 passed[39m[22m[90m (3)[39m
+[2m      Tests [22m [1m[32m12 passed[39m[22m[90m (12)[39m
+[2m   Start at [22m 04:05:19
+[2m   Duration [22m 2.91s[2m (environment 66%, tests 18%, setup 13%, transform 1%, import 1%)[22m
+
+JUNIT report written to C:/Important documents/learnings/project/car_inventory_system/docs/frontend-tests.xml

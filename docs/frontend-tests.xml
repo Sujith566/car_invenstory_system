@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="12" failures="0" errors="0" time="1.3690868">
+    <testsuite name="src/test/AuthForm.test.jsx" timestamp="2026-10-24T22:35:22.170Z" hostname="DESKTOP-S9LUGUI" tests="3" failures="0" errors="0" skipped="0" time="0.4834569">
+        <testcase classname="src/test/AuthForm.test.jsx" name="logs in and loads the signed-in user" time="0.3383147">
+        </testcase>
+        <testcase classname="src/test/AuthForm.test.jsx" name="registers before logging in" time="0.0705491">
+        </testcase>
+        <testcase classname="src/test/AuthForm.test.jsx" name="shows a login error without signing in" time="0.0710873">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/VehicleCard.test.jsx" timestamp="2026-10-24T22:35:22.174Z" hostname="DESKTOP-S9LUGUI" tests="6" failures="0" errors="0" skipped="0" time="0.4353131">
+        <testcase classname="src/test/VehicleCard.test.jsx" name="VehicleCard &gt; displays vehicle details" time="0.1331889">
+        </testcase>
+        <testcase classname="src/test/VehicleCard.test.jsx" name="VehicleCard &gt; passes the selected vehicle to the purchase handler" time="0.2088785">
+        </testcase>
+        <testcase classname="src/test/VehicleCard.test.jsx" name="VehicleCard &gt; disables purchasing when stock is zero" time="0.0167338">
+        </testcase>
+        <testcase classname="src/test/VehicleCard.test.jsx" name="VehicleCard &gt; hides management controls from regular members" time="0.0103033">
+        </testcase>
+        <testcase classname="src/test/VehicleCard.test.jsx" name="VehicleCard &gt; connects administrator controls to their handlers" time="0.0378595">
+        </testcase>
+        <testcase classname="src/test/VehicleCard.test.jsx" name="VehicleCard &gt; disables all card actions while busy" time="0.0235956">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/VehicleForm.test.jsx" timestamp="2026-10-24T22:35:22.178Z" hostname="DESKTOP-S9LUGUI" tests="3" failures="0" errors="0" skipped="0" time="0.4503168">
+        <testcase classname="src/test/VehicleForm.test.jsx" name="creates a vehicle with a decimal-string price" time="0.3459551">
+        </testcase>
+        <testcase classname="src/test/VehicleForm.test.jsx" name="updates an existing vehicle using PUT" time="0.0488024">
+        </testcase>
+        <testcase classname="src/test/VehicleForm.test.jsx" name="handles an expired session" time="0.0523518">
+        </testcase>
+    </testsuite>
+</testsuites>
