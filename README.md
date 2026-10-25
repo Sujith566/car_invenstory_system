@@ -23,7 +23,7 @@ installation, JWT_SECRET configuration, and both server commands.
 
 ## Administrator Setup
 Register an account, then run from backend:
-python -m app.admin your-email@example.com
+python -m app.admin welcome@gmail.com
 
 Sign out and sign in again to refresh the displayed role.
 
@@ -63,5 +63,8 @@ Reports are available under docs/.
 - The application has not undergone a production security audit.
 
 ## My AI Usage
-Write your own honest account of which AI tools you used,
-how you used them, what you reviewed or changed, and what you learned.
+Planning and code structure: “I used ChatGPT to help separate API routes, validation, database queries, and authentication into clear files. This helped me understand where to make future changes.”
+
+Testing and debugging: “AI helped generate test cases for invalid input, permissions, and simultaneous purchases. I ran the tests locally and used it to understand errors such as missing imports, database schema mistakes, and authentication failures.”
+
+Implementation and learning: “AI generated substantial backend and frontend code, which I integrated step by step. I used its explanations to understand the request flow and verified the implementation through tests and browser checks.”
